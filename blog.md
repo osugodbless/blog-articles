@@ -19,13 +19,17 @@ Setting up the resume website's frontend seemed straightforward at first. I util
 Further to this, I created an SSL/TLS certificate in ACM, and attached it to the CloudFront distribution. This was to ensure that CloudFront uses secure HTTP (HTTPS) to serve the website.
 I then configured Amazon Route53 to route traffic from my existing domain to my CloudFront distribution.
 
+See a screen snip of thw website below
+
+![website](img/website-snapshot.png)
+
 ### DevOps Way
 
 Lastly, upon verification that [my website](https://osu-resume.com.ng) was working flawlessly, I decided to do things the DevOps way. I converted the S3, Route53, Certificate Manager and CloudFront resources into code using CloudFormation. Then, I set up a GitHub repository and pushed my website codes and CloudFormation template there.
 
 See my architectural diagram for the frontend below.
 
-![website-snapshot](img/website-snapshot.png)
+![frontend-architecture](img/frontend-architecture.png)
 
 ## Chunk 2 and 3: Tackling the Backend and Testing
 
@@ -51,9 +55,15 @@ This phase of the project although not less significant, was easier and faster t
 
 I also implemented CI/CD with GitHub Actions. Since I had a single [repository](https://github.com/osugodbless/cloud-resume-challenge/tree/main) for both backend and frontend, I implemented a multi-job workflow with separate YAML files and both are triggered upon any push to the main branch. One YAML file defines a job that synchronizes website contents to the designated S3 bucket and the other defines a job that builds, deploys, and tests the application built with AWS SAM. I used GitHub's OIDC provider to authenticate to AWS and allow my workflow access to the needed resources in my AWS account. This was to follow security best practice of using temporary credentials for AWS access.
 
+You can see in the screen snips of both successful jobs below, that the second job includes a step for configuring AWS credentials.
+
+![s3-sync](img/actions-s3-sync.png)
+
+![sam-deploy](img/actions-sam-deploy.png)
+
 ## Bringing It All Together
 
-The true magic happened when I pulled down all the application resources and redeployed everything just by pushing a change to my rrepository. I saw all the pieces converged together to form the complete application. I was thrilled to see the frontend of my website come to life, seamlessly integrated with backend services and automated testing, without having to spend time manually configuring anything again. It made trully appreciate the power of automation and CI/CD.
+The true magic happened when I pulled down all the application resources and redeployed everything just by pushing a change to my repository. I saw all the pieces converged together to form the complete application. I was very thrilled to see the frontend of my website come to life, seamlessly integrated with backend services and automated testing, without having to spend time manually configuring anything again. It made me trully appreciate the power of automation and CI/CD.
 
 See the Complete architecture below
 
@@ -61,7 +71,7 @@ See the Complete architecture below
 
 ## Lessons Learned and Growth Achieved
 
-Through the Cloud Resume Challenge, I discovered the benefits of automation, version control, CI/CD, monitoring and observability, iteration, continuous learning, and of course the importance of implementing proper application security measures. Each chunk I took and conquered became an opportunity to grow, whether it was troubleshooting errors, reading documentations, getting familiarized with a new technology, or reiterating on the way I went about solving a particular problem.
+Through the Cloud Resume Challenge, I discovered the benefits of automation, version control, CI/CD, monitoring and observability, iteration, continuous learning, and of course the importance of implementing proper application security measures. Each chunk I took and conquered became an opportunity to grow, whether it was troubleshooting errors, reading documentations, getting familiarized with a new technology, or reiterating on the way I went about solving a particular problem. As a result, I've built some invaluable skills.
 
 ## Looking Ahead
 
