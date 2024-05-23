@@ -8,6 +8,8 @@ However, I knew certifications were just not enough. I wanted to dive into real 
 
 The cloud resume challenge is actually a challenge by [Forrest Brazeal](https://twitter.com/forrestbrazeal) to help people prepare for a job in the cloud industry. This post therefore is my way of sharing my experience, challenges, and skills gained during my pursuit of the Cloud Resume Challenge.
 
+[Here](https://osu-resume.com.ng) is [my website](https://osu-resume.com.ng) where you can see everything in action. Also, my [repository](https://github.com/osugodbless/cloud-resume-challenge/tree/main), which stores all the codes and resources.
+
 ## The Beginning: How I Decided to Tackle the Challenge
 
 Actually, the Cloud Resume Challenge consists of six(6) chunks of work (chunk 0-5) with each chunk consisting of a couple of steps to complete. I tackled the challenge one chunk at a time. Additionally, there are optional "Mods" sections (Developer, DevOps, and Security). Although optional, I decided to tackle the DevOps Mod alongside each chunk of the main challenge. It was an invaluable opportunity to go above and beyond in my pursuit of excellence, and to also expand my understanding of DevOps. I skipped the first chunk (chunk 0) since I already had the requirement——a Cloud Certification.
