@@ -1,6 +1,6 @@
 # CONQUERING THE CLOUD RESUME CHALLENGE: MY JOURNEY
 
-![website-cover](img/crc-blog-cover-photo.jpg)
+![website-cover](img/cloud-resume-challenge-architecture.png)
 
 As someone coming from a non-IT background wanting to transition into the IT space and looking to build a career specifically as a DevOps Engineer, I enrolled in an AWS Cloud Computing program, while also taking time to learn other fundamental concepts. Upon completing the program, I successfully passed both the AWS Cloud Practitioner and Solutions Architect - Associate exams, earning both certifications.
 
