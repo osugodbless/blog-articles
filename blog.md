@@ -19,7 +19,7 @@ Setting up the resume website's frontend seemed straightforward at first. I util
 Further to this, I created an SSL/TLS certificate in ACM, and attached it to the CloudFront distribution. This was to ensure that CloudFront uses secure HTTP (HTTPS) to serve the website.
 I then configured Amazon Route53 to route traffic from my existing domain to my CloudFront distribution.
 
-See a screen snip of thw website below
+See a screen snip of the website below
 
 ![website](img/website-snapshot.png)
 
@@ -43,11 +43,15 @@ To wrap up the chunk 2, I set up monitoring for my backend using CloudWatch, Ama
 
 The integration of these tools not only enhanced the resilience of my application but also deepened my understanding of DevOps principles and practices.
 
+See my architectural diagram for the backend below.
+
+![backend-architecture](img/backend-architecture.png)
+
 ### Testing
 
 I embraced Cypress for writing end-to-end API and website testing. Cypress has good documentation, so it was pretty easy to get around it.
 
-Conclusively, Chunk 2 was a challenging yet rewarding chapter in my Cloud Resume Challenge journey as it helped me gain invaluable insights into backend development and the concept of serverless.
+Conclusively, Chunk 2 especially was a challenging yet rewarding chapter in my Cloud Resume Challenge journey as it helped me gain invaluable insights into backend development and the concept of serverless.
 
 ## Chunk 4: CI/CD and Infrastructure as Code
 
@@ -67,7 +71,7 @@ The true magic happened when I pulled down all the application resources and red
 
 See the Complete architecture below
 
-![cloud-resume-challenge-architectural-diagram]()
+![cloud-resume-challenge-architectural-diagram](img/cloud-resume-challenge-architecture.png)
 
 ## Lessons Learned and Growth Achieved
 
