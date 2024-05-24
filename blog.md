@@ -89,8 +89,8 @@ After completing the challenge and reflecting on my journey, I realize that the 
 
 ## Final Thoughts
 
-To anyone considering embarking on the Cloud Resume Challenge, my advice is simple: take the leap. As Forrest Brazeal aptly put it, **"It's not a tutorial; it's a project spec."** And what a project it turned out to be! It's a journey of conquering challenges, unlocking new skills, and discovery of the endless possibilties there are in the Cloud.
+To anyone considering embarking on the Cloud Resume Challenge, my advice is simple: take the leap. As Forrest Brazeal aptly put it, **"It's not a tutorial; it's a project spec."** And what a project it turned out to be! It's a journey of conquering challenges, unlocking new skills, and discovery of the endless possibilities there are in the Cloud.
 
 ### Collaboration
 
-If you have some cool project and would like some collaboration to learn and tackle it together, you can reach out to me on [LinkedIn](https://linkedin.com/in/osugodbless/). Let's connect and explore the boundless possiblities of cloud technology, and create innovative solutions together.
+If you have some cool project and would like some collaboration to learn and tackle it together, you can reach out to me on [LinkedIn](https://linkedin.com/in/osugodbless/). Let's connect and explore the boundless possibilities of cloud technology, and create innovative solutions together.

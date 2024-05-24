@@ -1,0 +1,1 @@
+This repository is meant for storing all blog posts I write.
