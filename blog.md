@@ -8,7 +8,7 @@ However, I knew certifications were just not enough. I wanted to dive into real 
 
 The cloud resume challenge is actually a challenge by [Forrest Brazeal](https://twitter.com/forrestbrazeal) to help people prepare for a job in the cloud industry. This post therefore is my way of sharing my experience, challenges, and skills gained during my pursuit of the Cloud Resume Challenge.
 
-[Here](https://osu-resume.com.ng) is [my website](https://osu-resume.com.ng) where you can see everything in action. Also, my [repository](https://github.com/osugodbless/cloud-resume-challenge/tree/main), which stores all the codes and resources.
+>You can find my deployed website [here](https://osu-resume.com.ng) to explore the project in action. Also, my [repository](https://github.com/osugodbless/cloud-resume-challenge/tree/main), which stores all the codes and resources.
 
 ## The Beginning: How I Decided to Tackle the Challenge
 
@@ -73,7 +73,11 @@ The true magic happened when I pulled down all the application resources and red
 
 See the Complete architecture below
 
-![cloud-resume-challenge-architectural-diagram](img/cloud-resume-challenge-architecture.png)
+![cloud-resume-challenge-architectural-diagram](img/cloud-resume-challenge-architecture.png).
+
+## Deployed Website
+
+>You can find my deployed website [here](https://osu-resume.com.ng) to explore the project in action. Also, my [repository](https://github.com/osugodbless/cloud-resume-challenge/tree/main), which stores all the codes and resources.
 
 ## Lessons Learned and Growth Achieved
 
